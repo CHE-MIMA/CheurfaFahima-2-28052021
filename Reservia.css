@@ -1,0 +1,174 @@
+/*definition de la police*/
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+.corps
+{ 
+ font-size: 1.1em;
+ margin: auto;
+ width: ;
+}
+
+/*header*/
+nav
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+nav ul
+{ 
+    list-style-type:none;
+    display: flex;
+}
+nav li
+{
+    margin-right: 35px;
+}
+nav a
+{  
+    color:  #0065FC ;
+    text-decoration: none;
+}
+.activites
+{
+color: rgb(46, 44, 44);
+}
+.sabscribe
+{
+    font-weight: bold;
+}
+h1, h2
+{   color: black;
+    font-size: 1.2em;
+}
+ header h2, h3
+{
+    color: black;
+    font-size: 1em;
+}
+.formulaire
+{
+    display: flex;
+    justify-content:start;
+}
+.formulaire i
+{   
+     font-size: 12px;
+     border: solid 1px #F2F2F2;
+     border-radius: 10px 0px 0px 10px;
+     padding: 15px;
+     background-color: #F2F2F2;
+     margin-right: 0px;
+}
+.link-input
+{   font-weight: bold;
+    border: solid 1px #F2F2F2;
+    border-radius: 0px;
+    padding: 12px;
+    color: black; 
+}
+button
+{   font-weight: bold;
+    color: white;
+    border: 1px solid #0065FC; 
+    border-radius: 0px 10px 10px 0px;
+    background-color: #0065FC;
+    padding: 12px;
+}
+.filtres
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    
+     
+}
+header h2
+{
+    margin-top:10px;
+}
+.formulaire-filtre
+{
+   display: flex;
+   justify-content: flex-start;
+
+    
+}
+
+.formulaire-filtre i
+{
+    font-size: 15px;
+    color:  #0065FC;
+    border: solid 1px  #DEEBFF;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #DEEBFF;
+    position: relative;
+    left: 40px;
+}
+.formulaire-fami i
+{
+    font-size: 15px;
+    color:  #0065FC;
+    border: solid 1px  #DEEBFF;
+    border-radius: 20px;
+    padding:10px 12px 10px 12px;
+    background-color: #DEEBFF; 
+    position: relative;
+    left: 40px;
+}
+.link-filtre
+{
+    font-weight: bold;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    padding: 10px 10px 10px 40px;
+    width: 80px;  
+}
+.link-family
+{   font-weight: bold;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    padding: 10px 15px 10px 40px;
+    width: 50px; 
+    
+}
+.link-animal
+{
+    font-weight: bold;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    padding: 10px 10px 10px 40px;
+    width: 120px; 
+}
+.info i
+{   
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: 10px;
+    border: 1px #dad9d9 solid; 
+    border-radius: 20px;
+    padding: 3px 7px 5px 7px;  
+}
+
+/*main*/
+
+
+
+
+
+
+/*footer*/
+footer
+{  
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding-right: 200px;
+}
