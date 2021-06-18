@@ -1,17 +1,12 @@
 /*definition de la police*/
-
 body
 {
     font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    margin-left: 20px;
+    width: ;
 }
-
-.corps
-{ 
- font-size: 0.9em;
- margin: auto;
- width: 1200px;
-}
-
+ 
 /*header*/
 nav
 {
@@ -29,20 +24,26 @@ nav li
 {   
     margin-right: 50px;
 }
-nav a
+.hebergements
 {   
-
     font-size: 0.9em;
     color:  #0065FC ;
-    text-decoration: none;   
+    text-decoration: none;
+    border-top: solid #0065FC 2px;
+    padding: 30px 20px 0px 20px;     
 }
 .activites
-{
-color: black;
+{ 
+     font-size: 0.9em;
+     color: black;
+     text-decoration: none;
 }
-.sabscribe
-{
+.subscribe
+{   
+    font-size: 0.9em;
+    color:  #0065FC;
     font-weight: bold;
+    text-decoration: none;
 }
 h1, h2
 {   color: black;
@@ -88,10 +89,7 @@ h1, h2
 {
     display: flex;
     justify-content: start;
-    margin-top: 20px;
-    
-    
-     
+    margin-top: 20px;    
 }
 header h2
 {
@@ -101,7 +99,13 @@ header h2
 .formulaire-filtre
 {
    display: flex;
-   justify-content: flex-start;   
+   justify-content: flex-start;  
+ 
+}
+.formulaire-filtre :hover
+{
+   color:darkmagenta;
+   background-color:powderblue;
 }
 
 .formulaire-filtre i
@@ -110,7 +114,7 @@ header h2
     color:  #0065FC;
     border: solid 1px  #DEEBFF;
     border-radius: 20px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     background-color: #DEEBFF;   
 }
 
@@ -151,11 +155,75 @@ header h2
 }
 
 /*main*/
+.hebergements-marseille
+{   margin-top: 20px;
+    border: 1px #F2F2F2 solid;
+    border-radius: 20px;
+    width: 700px;
+    background-color:  #F2F2F2;
+    padding: 20px 20px 30px 30px;
 
+}
+.hebergements-marseille-cartes
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 700px;
+}
+.afficher
+{   font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border: none;
+    font-size: 1em;
+}
+.hebergements-marseille-item
+{   
+    margin-right: 20px;
+    text-decoration: none;
+    border: solid 2px #F2F2F2;
+    border-radius: 20px;
+    padding: 3px;
+    margin-bottom: 20px;
+    background-color: white;
 
+}
+.hebergements-marseille-item img
+{
+    width: 200px;
+    height: 100px;
+    border: 1px #F2F2F2 solid;
+    border-radius: 15px 15px 0px 0px;
 
-
-
+}
+.hebergements-marseille-contenu
+{   
+    font-family: 'Raleway', sans-serif;;
+    color: black;
+}
+.hebergements-marseille-contenu h3
+{  
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.hebergements-marseille-contenu p
+{   
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.notation
+{   display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    color:#0065FC;
+    font-size: 10px;
+}
+.link-notation
+{   display: flex;
+    justify-content: flex-start;
+    color: #dddddd;  
+}
 
 /*footer*/
 footer
