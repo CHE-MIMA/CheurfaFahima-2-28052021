@@ -87,17 +87,17 @@ h1, h2
     padding: 10px 0px 10px 15px;
     color: black; 
 }
-.formulaire button
-{     
-    
+.button-rechercher button
+{    
     font-size: 1.2em;
     color: white;
     border: 1px solid #0065FC; 
     border-radius: 0px 15px 15px 0px;
     background-color: #0065FC;
-    padding: 10px 20px 10px 15px;
+    padding: 10px 20px 20px 15px;
+    
 }
-.search-icone
+.search-icon
 {
     display: none;
 }
@@ -494,11 +494,6 @@ strong
 {
   margin: 15px 0px 20px 20px;
 }
-
-
-
-
-
 /*footer*/
 footer
 {   
@@ -525,326 +520,44 @@ footer li
 margin-top: 10px;
 }
 
-@media screen and (min-width:0px)and (max-width:2px) 
-{
-       
-    body
-    {
-       margin: 5% 3%;
-       font-size: 1.1em;
-    }
-    nav 
-    {
-       flex-direction: column; 
-    }
-      .subscribe, nav a
-    {
-      display: flex;
-      flex-direction: row;
-    }
-    .subscribe
-    {
-        margin-top: -40px;
-        margin-left: -240px;
-    } 
-    .link-nav
-    { 
-     display: flex;
-     justify-content: start; 
-     margin-left: -60px;
-     margin-right: 100px;
-     padding: 10px 40px 20px 40px;
-     margin-bottom: -20px;
-    }
-    .link-nav:hover 
-    {   
-        border-top: none;
-        border-bottom: solid #0065FC 2px;
-    }
-    nav
-    {    
-        border-bottom: solid 2px #F2F2F2;
-    
-    }
-    h1 
-    {
-        margin-right: 20%;
-    }
-    .formulaire
-    {
-        margin-top: 40px;
-    }
-    .formulaire i 
-    {
-        font-size: 20px;
-         border-radius: 20px 0px 0px 20px;
-         padding: 20px;
-    }
-     .recherche input 
-     {
-        border-radius: 0px 20px 20px 0px;
-        padding: 10px 60px 10px 15px;
-     }
-    .search-icone
-    {
-        display: inline-block;
-        
-        color: white;
-        border-radius: 20px;
-        width: 60px;
-        height: 61px;
-        margin-left: -60px;
-       
-        border: 1px solid #0065FC; 
-        border-radius: 0px 15px 15px 0px;
-        background-color: #0065FC;
-    }
-    .filtres
-    {
-    flex-direction: column;
-    margin-top: 20px;
-    }
-
-    .formulaire-filtre
-   {
-     flex-wrap:wrap;
-   } 
-    .link-filtre 
-   {  
-    margin-bottom: 10px;
-    margin-right: 10px;  
-   } 
-   .info i
-   {   
-       font-size: 12px;
-        margin-top: 25px;
-        padding: 5px 9px 7px 9px;
-   }
-    .info p
-   {
-       margin-top: -60px;
-       margin-left: 8%;
-   }
 
 
-    /*main*/
-   .les-hotels
-   {
-       display: flex;
-       justify-content: space-between;
-       flex-direction: column;
-       margin-top: 30px;  
-   }
-   .populaires
-   {   
-       order: 1;
-       border-radius: 0px;
-       margin-left: -4%;
-       margin-right: -3%;
-   }
-   .populaires-cartes
-    {
-        width: 90%;
-        grid-gap: 15px;
-        margin-bottom: 40px;
-           
-    }
-    .populaires-item
-    {
-        padding: 5px;
-    }
-   .populaires-item img
-   {
-   
-     min-width: 40%;
-     height: 160px;
-   }
-   #link-img
-   {
-    max-width: 40%;
-   }
-  .populaires-contenu
-   {
-     padding: 0px 0px 0px 20px;
-     margin-top: -12px;
-   }
-  .populaires-contenu p
-   {
-     margin-top: -10px; 
-   }
-  .populaires-contenu i
-   {  
-     font-size: 15px;   
-   }
 
-   .hebergements-marseille
-   {  
-       border: 0px;
-       background: none;
-       order: 2;
-   }
-   #hebergements-a-marseille
-   {
-       padding: 20px 0px 0px 15px;
-   }
-   .hebergements-marseille-cartes
-   {
-       display: grid;
-       grid-template-columns: 1fr;
-       grid-template-rows: auto;
-       grid-gap: 20px;
-       width: 95%;
-   } 
-   .hebergements-marseille-item img
-   {
-       object-fit: cover;
-       height: 150px; 
-       border: 1px #F2F2F2 solid;
-       border-radius: 15px 15px 0px 0px;
-       min-width: 99%;
-   }
-   .hebergements-marseille-contenu
-   { 
-       padding:0px 10px 0px 15px;
-   }
-   .hebergements-marseille-contenu h3
-   {  
-       margin-top: 10px;
-   }
-   .hebergements-marseille-contenu p
-   {   
-       margin-top: 10px;
-       margin-bottom: 10px;
-   }
-   .hebergements-marseille-contenu i
-   {
-       font-size: 15px;
-   }
-   .afficher
-   {   
-       background: none;
-       border: none;
-       margin: 40px 0px 0px 15px; 
-   }
-   .activites-marseille
-    {
-       margin-top: 50px;
-       margin-right: 5%;
-       margin-left: 3%;
-    }
-   .activites-marseille-cartes
-   {  
-       display: flex;
-       flex-direction: column; 
-   } 
-   .activites-marseille-port img
-   {  
-     object-fit: cover;
-     height: 170px;
-     min-width: 100%;
-   }
-   .activites-marseille-port h3
-   {
-       margin: 15px 0px 20px 20px; 
-   }
-    .activites-marseille-pomegues img
-    {
-        object-fit: cover;
-        height: 170px;
-        min-width: 100%;   
-    }
-    .activites-marseille-pomegues h3
-    {
-        margin:  15px 0px 20px 20px;
-    }
-   .activites-marseille-frioul
-   {   
-       margin-bottom: 0px;   
-   }
-   .activites-marseille-frioul img
-   {   
-       object-fit: cover;
-        height: 170px;
-        min-width: 100%; 
-   }
-   .activites-marseille-frioul h3
-   {
-       margin:  15px 0px 20px 20px;
-   }
-   .activites-marseille-calanques
-   {
-       margin-bottom: 0px;
-   }
-   .activites-marseille-calanques img
-   {   
-        object-fit: cover;
-        height: 170px;
-        min-width: 100%;
-   }
-   .activites-marseille-calanques h3
-   {
-       margin:  15px 0px 20px 20px;
-   }
-   .activites-marseille-dame-garde
-   {
-      margin-bottom: 0px;
-   }
-   .activites-marseille-dame-garde img
-   {   
-       object-fit: cover;
-       height: 170px; 
-       min-width: 100%;
-   
-   }
-   .activites-marseille-dame-garde h3
-   {
-       margin: 15px 0px 20px 20px;
-   }
-   .activites-marseille-longchamp
-   {
-      margin-top: 0px;
-   }
-   .activites-marseille-longchamp img
-   {   
-       object-fit: cover;
-       height: 170px;
-       min-width: 100%;
-   }
-   .activites-marseille-longchamp h3
-   {
-     margin: 15px 0px 20px 20px;
-   }
-   
-   footer
-   {   
-       margin-top: 50px;
-       background-color: #F2F2F2;
-       display: flex;
-       flex-direction: column;
-       justify-content: space-between;
-       padding: 20px 0px 20px 50px;
-       margin-left: -4%;
-   }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:375px) and (max-width:767px)     
 {
      body  
-     {   margin: 8% 0.5%;
+     {   margin: 5% 0.5%;
          font-size: 1.1em;
      } 
     /*header*/
     nav 
     {
-       display: block; 
-       position: relative;
-       padding-bottom: 4rem;
-    }
+        display: block; 
+        position: relative;
+     }
      
     nav ul 
-    {
-        justify-content: space-around;
-        margin-top: 2.5rem;
+    {   
+      
+        margin-top: 20px;
     }
     .subscribe
     {
@@ -853,10 +566,15 @@ margin-top: 10px;
        right: 30px;
     } 
     .link-nav
-    { 
+    {   
+        display: inline-block;
+        position:relative;
+        left: -60px;
+        margin-right: -60px;
         border-top: none;
         border-bottom: 2px solid #F2F2F2;
-    
+        padding: 0px 60px 20px 40px;
+
     }
     .link-nav:hover 
     {   
@@ -880,22 +598,20 @@ margin-top: 10px;
     {
         font-size: 20px;
          border-radius: 20px 0px 0px 20px;
-         padding: 20px;
+         padding: 20px 20px 0px 20px;
     }
      .recherche input 
      { font-size: 1em;
-        border-radius: 0px 20px 20px 0px;
-        padding: 10px 60px 10px 15px;
-        width: 20px;
+        border-radius: 0px 15px 15px 0px;
+        padding: 10px 0px 10px 15px;
+        
      }
-    .formulaire button 
-    {
+    .button-rechercher button
+    {   
         display: none;
     }
-    .search-icone
-    {
-        display: inline-block;
-        font-size: 20px;
+    .search-icon
+    {    display: inline-block;
         color: white;
         border: 1px solid #0065FC; 
         border-radius: 0px 15px 15px 0px;
@@ -1132,12 +848,9 @@ margin-top: 10px;
    }
 
 }
-@media screen and (min-width: 768px) and (max-width: 1000px)
-{
 
-}
    
-@media screen and (min-width:0px) and (max-width:2px)
+@media screen and (min-width:0px) and (max-width:0px)
 {
     body
     {
@@ -1162,14 +875,119 @@ margin-top: 10px;
        margin-right: 10%;
    }
    .les-hotels
-{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-top: 30px;  
-}
    {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     margin-top: 30px;  
+   }
+   .populaires
+   {
+     margin-top: 40px;
+   }
+}
 
+
+@media screen and (min-width:0px)and (max-width:0px) 
+{
+       
+    body
+    {
+       margin: 5% 3%;
+       font-size: 1.1em;
+    }
+    h1 
+    {
+        margin-right: 20%;
+    }
+    .formulaire
+    {
+        margin-top: 40px;
+    }
+    .formulaire i 
+    {
+        font-size: 20px;
+         border-radius: 20px 0px 0px 20px;
+         padding: 20px;
+    }
+     .recherche input 
+     {
+        border-radius: 0px 0px 0px 0px;
+        padding: 10px 60px 10px 15px;
+     }
+   
+    .filtres
+    {
+    flex-direction: column;
+    margin-top: 20px;
+    }
+
+    .formulaire-filtre
+   {
+     flex-wrap:wrap;
+   } 
+    .link-filtre 
+   {  
+    margin-bottom: 10px;
+    margin-right: 10px;  
+   } 
+   .info i
+   {   
+       font-size: 12px;
+        margin-top: 25px;
+        padding: 5px 9px 7px 9px;
+   }
+    .info p
+   {
+       margin-top: -60px;
+       margin-left: 2%;
+   }
+
+
+    /*main*/
+   .les-hotels
+   {
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       margin-top: 30px;  
+   }
+   .populaires
+   {   margin-top: 40px;
+       border-radius: 0px;
+   }
+   .populaires-cartes
+    {
+        width: 90%;
+        grid-gap: 15px;
+        margin-bottom: 40px;
+           
+    }
+    .populaires-item
+    {
+        padding: 5px;
+    }
+   .populaires-item img
+   {
+     min-width: 50%;
+     height: 280px;
+   }
+   #link-img
+   {
+    max-width: 50%;
+   }
+  .populaires-contenu
+   {
+    margin: 0px;
+     
+   }
+  .populaires-contenu p
+   {
+     margin-top: -10px; 
+   }
+  .populaires-contenu i
+   {  
+     font-size: 15px;   
    }
 }
 
