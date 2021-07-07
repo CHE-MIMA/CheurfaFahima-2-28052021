@@ -68,11 +68,11 @@ h1, h2
     justify-content:start;
     margin-top: 20px;
 }
-.formulaire i
+.location-icon
 {   
      font-size: 18px;
      border: solid 1px #F2F2F2;
-     border-radius: 15px 0px 0px 15px;
+     border-radius: 17px 0px 0px 17px;
      padding: 17px;
      background-color: #F2F2F2;
      
@@ -87,14 +87,14 @@ h1, h2
     padding: 10px 0px 10px 15px;
     color: black; 
 }
-.button-rechercher button
+.formulaire button
 {    
     font-size: 1.2em;
     color: white;
     border: 1px solid #0065FC; 
     border-radius: 0px 15px 15px 0px;
     background-color: #0065FC;
-    padding: 10px 20px 20px 15px;
+    padding: 10px 20px 10px 15px;
     
 }
 .search-icon
@@ -174,8 +174,8 @@ h1, h2
 .info p
 {
     display: inline-block;
-    vertical-align: bottom;
-    margin-top: 40px;
+      margin-top: 35px;
+      vertical-align: bottom;
 }
 
 /*main*/
@@ -184,8 +184,8 @@ h1, h2
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-right: 3%;
-    margin-top: 30px;  
+    margin-top: 30px; 
+    margin-right: 1%; 
 }
 strong
 {
@@ -326,6 +326,10 @@ strong
 #link-img
 {
     max-width: 38%;
+}
+#bleu-blanc
+{
+    min-width: 38%;
 }
 .populaires-contenu
 {
@@ -501,7 +505,7 @@ footer
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-between;
-    padding: 20px 380px 20px 40px;
+    padding: 2% 25% 2% 3%;
     margin-left: -40px;
 }
 footer ul
@@ -550,31 +554,31 @@ margin-top: 10px;
     /*header*/
     nav 
     {
-        display: block; 
-        position: relative;
+      display: block;
+      position: relative;
      }
      
     nav ul 
     {   
-      
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: -5%;
+        margin-right: -20%; 
         margin-top: 20px;
     }
     .subscribe
     {
        position: absolute;
-       top: 20px;
+       top: 25px;
        right: 30px;
     } 
     .link-nav
     {   
+        margin-top: -30px;
         display: inline-block;
-        position:relative;
-        left: -60px;
-        margin-right: -60px;
-        border-top: none;
-        border-bottom: 2px solid #F2F2F2;
-        padding: 0px 60px 20px 40px;
-
+        position: relative;
+        left: -20%;
+        padding: 0% 70% 20px 30%;
     }
     .link-nav:hover 
     {   
@@ -594,32 +598,33 @@ margin-top: 10px;
     {
         margin-top: 40px;
     }
-    .formulaire i 
-    {
-        font-size: 20px;
-         border-radius: 20px 0px 0px 20px;
-         padding: 20px 20px 0px 20px;
-    }
+
      .recherche input 
      { font-size: 1em;
-        border-radius: 0px 15px 15px 0px;
-        padding: 10px 0px 10px 15px;
+        border-radius: 0px 17px 17px 0px;
+        padding: 2% 18% 2% 5%;
         
      }
-    .button-rechercher button
+    .formulaire button 
     {   
         display: none;
     }
+    .location-icon
+    {
+        font-size: 20px;
+        padding: 15px 20px 20px 20px;
+    }
     .search-icon
-    {    display: inline-block;
+    {    
+        display: inline-block;
         color: white;
         border: 1px solid #0065FC; 
-        border-radius: 0px 15px 15px 0px;
+        border-radius: 17px;
         background-color: #0065FC;
-        padding: 10px 20px 10px 15px;
-
+        padding: 15px 20px 20px 20px;
+        font-size: 20px;
+        margin-left: -60px;
     }
-    
     .filtres
     {
     flex-direction: column;
@@ -637,17 +642,19 @@ margin-top: 10px;
    } 
    .info i
    {   
+       display: inline-block;
+       position: absolute;
+       margin-top: 30px;
        font-size: 12px;
-        margin-top: 25px;
-        padding: 5px 9px 7px 9px;
+       padding: 5px 9px 7px 9px;  
    }
-    .info p
-   {
-       margin-top: -60px;
-       margin-left: 8%;
+    .info p   
+   {   
+       
+      display: inline-block; 
+      margin-left: 40px;
+      margin-bottom: 30px;  
    }
-
-    
     /*main*/
    .les-hotels
    {
@@ -661,11 +668,11 @@ margin-top: 10px;
        order: 1;
        border-radius: 0px;
        margin-left: -1%;
-       margin-right: -4%;
+       margin-right: -3%;
    }
    .populaires-cartes
     {
-        width: 90%;
+        width: 95%;
         grid-gap: 15px;
         margin-bottom: 40px;
            
@@ -676,18 +683,21 @@ margin-top: 10px;
     }
    .populaires-item img
    {
-   
-     min-width: 40%;
-     height: 160px;
+     min-width: 45%
+    
    }
    #link-img
    {
-    max-width: 40%;
+     min-width: 45%;
    }
-  .populaires-contenu
+   #bleu-blanc
    {
-     padding: 0px 0px 0px 20px;
-     margin-top: -12px;
+       min-width: 45%;
+   }
+  
+  .populaires-contenu
+   { padding: 0px 0px 0px 10px;
+     min-width: 53%
    }
   .populaires-contenu p
    {
@@ -719,7 +729,7 @@ margin-top: 10px;
    .hebergements-marseille-item img
    {
        object-fit: cover;
-       height: 150px; 
+       height: 180px; 
        border: 1px #F2F2F2 solid;
        border-radius: 15px 15px 0px 0px;
        min-width: 99%;
@@ -761,7 +771,7 @@ margin-top: 10px;
    .activites-marseille-port img
    {  
      object-fit: cover;
-     height: 170px;
+     height: 180px;
      min-width: 100%;
    }
    .activites-marseille-port h3
@@ -771,7 +781,7 @@ margin-top: 10px;
     .activites-marseille-pomegues img
     {
         object-fit: cover;
-        height: 170px;
+        height: 180px;
         min-width: 100%;   
     }
     .activites-marseille-pomegues h3
@@ -785,7 +795,7 @@ margin-top: 10px;
    .activites-marseille-frioul img
    {   
        object-fit: cover;
-        height: 170px;
+        height: 180px;
         min-width: 100%; 
    }
    .activites-marseille-frioul h3
@@ -799,7 +809,7 @@ margin-top: 10px;
    .activites-marseille-calanques img
    {   
         object-fit: cover;
-        height: 170px;
+        height: 180px;
         min-width: 100%;
    }
    .activites-marseille-calanques h3
@@ -813,7 +823,7 @@ margin-top: 10px;
    .activites-marseille-dame-garde img
    {   
        object-fit: cover;
-       height: 170px; 
+       height: 180px; 
        min-width: 100%;
    
    }
@@ -828,7 +838,7 @@ margin-top: 10px;
    .activites-marseille-longchamp img
    {   
        object-fit: cover;
-       height: 170px;
+       height: 180px;
        min-width: 100%;
    }
    .activites-marseille-longchamp h3
@@ -849,29 +859,51 @@ margin-top: 10px;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
    
-@media screen and (min-width:0px) and (max-width:0px)
+@media screen and (min-width:768px) and (max-width:1000px)
 {
     body
     {
-       margin: 5% 3%;
+       margin: 3% 1%;
        font-size: 1.1em;
     }
 
+    .filtres
+    {
+    flex-direction: column;
+    margin-top: 20px;
+    }
     .formulaire-filtre
-   {
+   { 
+     display: flex;
      flex-wrap:wrap;
-     margin-left: -2%;
-   }  
+   } 
+    .link-filtre 
+   {  
+    margin-bottom: 10px;
+    margin-right: 10px;  
+   } 
+  
    .info i
    { 
         font-size: 12px;
-        margin-top: 25px;
+        margin-top: 15px;
         padding: 5px 9px 7px 9px;
    }
     .info p
    {
-       margin-top: 40px;
+       margin-top: 30px;
        margin-right: 10%;
    }
    .les-hotels
@@ -882,83 +914,13 @@ margin-top: 10px;
      margin-top: 30px;  
    }
    .populaires
-   {
-     margin-top: 40px;
-   }
-}
-
-
-@media screen and (min-width:0px)and (max-width:0px) 
-{
-       
-    body
-    {
-       margin: 5% 3%;
-       font-size: 1.1em;
-    }
-    h1 
-    {
-        margin-right: 20%;
-    }
-    .formulaire
-    {
-        margin-top: 40px;
-    }
-    .formulaire i 
-    {
-        font-size: 20px;
-         border-radius: 20px 0px 0px 20px;
-         padding: 20px;
-    }
-     .recherche input 
-     {
-        border-radius: 0px 0px 0px 0px;
-        padding: 10px 60px 10px 15px;
-     }
-   
-    .filtres
-    {
-    flex-direction: column;
-    margin-top: 20px;
-    }
-
-    .formulaire-filtre
-   {
-     flex-wrap:wrap;
-   } 
-    .link-filtre 
-   {  
-    margin-bottom: 10px;
-    margin-right: 10px;  
-   } 
-   .info i
    {   
-       font-size: 12px;
-        margin-top: 25px;
-        padding: 5px 9px 7px 9px;
-   }
-    .info p
-   {
-       margin-top: -60px;
-       margin-left: 2%;
-   }
-
-
-    /*main*/
-   .les-hotels
-   {
-       display: flex;
-       justify-content: space-between;
-       flex-direction: column;
-       margin-top: 30px;  
-   }
-   .populaires
-   {   margin-top: 40px;
-       border-radius: 0px;
+       order: 1;
+       border-radius: 20px;
    }
    .populaires-cartes
     {
-        width: 90%;
+        width: 95%;
         grid-gap: 15px;
         margin-bottom: 40px;
            
@@ -969,17 +931,24 @@ margin-top: 10px;
     }
    .populaires-item img
    {
-     min-width: 50%;
-     height: 280px;
+     min-width: 45%;
+     height: 200px;
+    
    }
    #link-img
    {
-    max-width: 50%;
+     min-width: 45%;
+     height: 200px;
    }
-  .populaires-contenu
+   #bleu-blanc
    {
-    margin: 0px;
-     
+       min-width: 45%;
+       height: 200px;
+   }
+  
+  .populaires-contenu
+   { padding: 0px 0px 0px 10px;
+     min-width: 53%;
    }
   .populaires-contenu p
    {
@@ -987,9 +956,291 @@ margin-top: 10px;
    }
   .populaires-contenu i
    {  
-     font-size: 15px;   
+     font-size: 15px;
+     margin-top: 60px;   
    }
+   .hebergements-marseille
+   {   margin-top: 40px;
+     order: 2; 
+   }
+   #hebergements-a-marseille
+   {
+    padding: 20px 0px 5px 35px;
+   }
+
+   .hebergements-marseille-cartes
+   {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    width: 96%;
+   }
+   .hebergements-marseille-item img
+   {
+    object-fit: cover;
+    height: 180px; 
+   }    
+   .activites-marseille
+   {
+       margin-right: 0%;
+   }
+   .activites-marseille-cartes
+   {  
+       display: flex;
+       flex-wrap: wrap;
+       margin-right: 20px;
+       margin-bottom: 20px;
+       width: 99%;
+
+   } 
+   .activites-marseille-port
+   {
+       flex-basis: 46%;
+   }
+  
+   .activites-marseille-port img
+   {  
+     object-fit: cover;
+     height: 200px;
+     min-width: 100%;
+   }
+   .activites-marseille-pomegues
+   {
+       flex-basis: 46%;
+   }
+    .activites-marseille-pomegues img
+    {
+        object-fit: cover;
+        height: 200px;
+        min-width: 100%;
+        
+    }
+   
+   .activites-marseille-frioul
+   {   
+       margin-bottom: 0px; 
+       flex-basis: 46%;
+   
+   }
+   .activites-marseille-frioul img
+   {   
+       object-fit: cover;
+        height: 200px;
+        min-width: 100%; 
+   }
+   .activites-marseille-calanques
+   {
+       flex-basis: 46%;
+   }
+   .activites-marseille-calanques img
+   {   
+        object-fit: cover;
+        height: 200px;
+        min-width: 100%;
+   }
+   .activites-marseille-dame-garde
+   {
+      margin-bottom: 0px;
+      flex-basis: 46%;
+   }
+   .activites-marseille-dame-garde img
+   {   
+       object-fit: cover;
+       height: 200px;
+       min-width: 100%;
+   
+   }
+   .activites-marseille-longchamp
+   {
+      margin-top: 0px;
+      flex-basis: 46%
+   }
+   .activites-marseille-longchamp img
+   {   
+       object-fit: cover;
+       height: 200px;
+       min-width: 100%;
+   
+   }
+   footer
+    {   
+    padding: 2% 8% 2% 5%;
+    }
+  
+      
+
 }
+@media screen and (min-width:1001px)and (max-width:1279px) 
+{
+       
+    body
+    {
+       margin: 3% 1%;
+       font-size: 1.1em;
+    }
+    .formulaire-filtre
+    { 
+      display: flex;
+      flex-wrap:wrap;
+    } 
+     .link-filtre 
+    {  
+     margin-bottom: 10px;
+     margin-right: 10px;  
+    } 
+   
+
+    /*main*/
+   .les-hotels
+   {
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       margin-top: 30px;  
+   }
+   .populaires
+   {   margin-top: 0px;
+       border-radius: 20px;
+       order: 1;
+   }
+   .populaires-cartes
+   {
+       width: 98%;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: auto;
+       grid-gap: 15px;
+       margin-bottom: 30px;
+   }
+   .populaires-item img
+   {
+    object-fit: cover;
+    min-width: 33%;
+    border: 1px solid  #F2F2F2;
+    border-radius:  15px 0px 0px 15px;
+    height: 130px;
+   }
+   #link-img
+   {
+       max-width: 33%;
+   }
+   #bleu-blanc
+   {
+       min-width: 33%;
+   }
+   .populaires-contenu
+   {
+       padding: 0px 0px 0px 10px;
+       margin-top: -20px;
+   }
+   .populaires-contenu p
+   {
+      margin-top: -10px; 
+   }
+   .populaires-contenu i
+   {  
+        font-size: 13px;
+        margin-bottom: -20px;
+        margin-top: 10px;
+   }
+   .hebergements-marseille
+  {  
+    width: 100%;
+    order:2;
+    margin-top: 40px;
+  }
+
+  .activites-marseille
+  {
+      margin-right: 0%;
+  }
+  .activites-marseille-cartes
+  {  
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      width: 99%;
+
+  } 
+  .activites-marseille-port
+  {
+      flex-basis: 30%;
+  }
+ 
+  .activites-marseille-port img
+  {  
+    object-fit: cover;
+    height: 200px;
+    min-width: 100%;
+  }
+  .activites-marseille-pomegues
+  {
+      flex-basis: 30%;
+  }
+   .activites-marseille-pomegues img
+   {
+       object-fit: cover;
+       height: 200px;
+       min-width: 100%;
+       
+   }
+  
+  .activites-marseille-frioul
+  {   
+      margin-bottom: 0px; 
+      flex-basis: 30%;
+  
+  }
+  .activites-marseille-frioul img
+  {   
+      object-fit: cover;
+       height: 200px;
+       min-width: 100%; 
+  }
+  .activites-marseille-calanques
+  {
+      flex-basis: 30%;
+  }
+  .activites-marseille-calanques img
+  {   
+       object-fit: cover;
+       height: 200px;
+       min-width: 100%;
+  }
+  .activites-marseille-dame-garde
+  {
+     margin-bottom: 0px;
+     flex-basis: 30%;
+     
+  }
+  .activites-marseille-dame-garde img
+  {   
+      object-fit: cover;
+      height: 200px;
+      max-width: 100%;
+  
+  }
+  .activites-marseille-longchamp
+  {
+     margin-top: 0px;
+     flex-basis: 30%
+  }
+  .activites-marseille-longchamp img
+  {   
+      object-fit: cover;
+      height: 200px;
+      min-width: 100%;
+  
+  }
+  footer
+   {   
+   padding: 2% 15% 2% 5%;
+   }
+
+
+}
+
 
   
 
