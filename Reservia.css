@@ -552,6 +552,10 @@ margin-top: 10px;
          font-size: 1.1em;
      } 
     /*header*/
+    header
+    {
+      margin-left: 3%;
+    }
     nav 
     {
       display: block;
@@ -623,7 +627,7 @@ margin-top: 10px;
         background-color: #0065FC;
         padding: 15px 20px 20px 20px;
         font-size: 20px;
-        margin-left: -60px;
+        margin-left: -70px;
     }
     .filtres
     {
