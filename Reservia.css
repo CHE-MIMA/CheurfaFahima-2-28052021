@@ -562,8 +562,9 @@ margin-top: 10px;
 @media screen and (min-width:375px) and (max-width:767px)     
 {
      body  
-     {   margin: 5% 0.5%;
+     {   margin: 0 0.5%;
          font-size: 1.1em;
+         border-bottom: 1px solid gray;
      } 
     /*header*/
     header
@@ -585,31 +586,31 @@ margin-top: 10px;
     .subscribe
     {
        position: absolute;
-       top: -40px;
+       top: -45px;
        right: 4%;
     } 
     .link-hebergements
     {   
         display: inline_block;
         position: relative;
-        right: 27%;
+        right: 25%;
         padding: 0% 20% 20px 25%;
-        width: 50%;
-        top: 20px;
+        top: 19px;   
     }
-    .link-hebergements:hover 
-    {   
-        border-top: none;
+    .link-hebergements:hover
+    {
+        
         border-bottom: solid #0065FC 3px;
+        border-top: none; 
     }
     .link-activites
     {
         display: inline_block;
         position: relative;
         bottom: 2px;
-        left: 60%;
-        width:50%;
-        padding: 0% 30% 20px 20%;
+        left: 65%;
+        
+        padding: 0% 18% 20px 15%;
     
     }
     .link-activites:hover 
@@ -980,7 +981,7 @@ margin-top: 10px;
      margin-top: -10px; 
    }
   .populaires-contenu i
-   {  font-size: 15px;
+   {  font-size: 18px;
      margin-top: 60px;   
    }
    .hebergements-marseille
@@ -1098,7 +1099,7 @@ margin-top: 10px;
        
     body
     {
-       margin: 5% 0.5%;
+       margin: 4% 1.5%;
        font-size: 1.05em;
     }
     h3
