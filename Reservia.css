@@ -23,19 +23,32 @@ nav li
 {   
     margin-right: 60px;
 }
-.link-nav:hover
+.link-hebergements:hover
 {   
     color:  #0065FC ;
     text-decoration: none;
-    border-top: solid #0065FC 2px;
-       
+    border-top: solid #0065FC 2px;      
 }
-.link-nav
+.link-activites:hover
+{ 
+    color:  #0065FC ;
+    text-decoration: none;
+    border-top: solid #0065FC 2px;      
+
+}
+.link-hebergements
 { 
      color: black;
      text-decoration: none;
      padding: 30px 20px 0px 20px;  
 }
+.link-activites
+{
+    color: black;
+    text-decoration: none;
+    padding: 30px 20px 0px 20px; 
+}
+
 .subscribe
 {   
     color:  #0065FC;
@@ -257,7 +270,7 @@ strong
 }
 .hebergements-marseille-contenu i
 {
-    font-size: 13px;
+    font-size: 15px;
 }
 .notation
 {   display: flex;
@@ -343,7 +356,7 @@ strong
 }
 .populaires-contenu i
 {  
-     font-size: 13px;
+     font-size: 15px;
      margin-top: 20px;   
 }
 
@@ -565,32 +578,43 @@ margin-top: 10px;
      
     nav ul 
     {   
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: -5%;
-        margin-right: -20%; 
-        margin-top: 20px;
+        display: block;
+        position: relative;
     }
     .subscribe
     {
        position: absolute;
-       top: 25px;
-       right: 30px;
+       top: -40px;
+       right: 4%;
     } 
-    .link-nav
+    .link-hebergements
     {   
-        margin-top: -30px;
-        display: inline-block;
+        display: inline_block;
         position: relative;
-        left: -20%;
-        padding: 0% 70% 20px 30%;
+        right: 34%;
+        padding: 0% 100% 20px 30%;
+        width: 50%;
     }
-    .link-nav:hover 
+    .link-hebergements:hover 
     {   
         border-top: none;
         border-bottom: solid #0065FC 2px;
     }
+    .link-activites
+    {
+        display: inline_block;
+        position: relative;
+        top: -20px;
+        left: 50%;
+        width:50%;
+        padding: 0% 30% 20px 30%;
     
+    }
+    .link-activites:hover 
+    {   
+        border-top: none;
+        border-bottom: solid #0065FC 2px;
+    }
     h1 
     {
         font-size: 1.2em;
@@ -602,12 +626,13 @@ margin-top: 10px;
     .formulaire
     {
         margin-top: 40px;
+        
     }
 
      .recherche input 
      { font-size: 1em;
         border-radius: 0px 17px 17px 0px;
-        padding: 2% 18% 2% 5%;
+        padding: 2% 10% 2% 5%;
         
      }
     .formulaire button 
@@ -628,7 +653,7 @@ margin-top: 10px;
         background-color: #0065FC;
         padding: 15px 20px 20px 20px;
         font-size: 20px;
-        margin-left: -70px;
+        margin-left: -60px;
     }
     .filtres
     {
@@ -708,10 +733,6 @@ margin-top: 10px;
    {
      margin-top: -10px; 
    }
-  .populaires-contenu i
-   {  
-     font-size: 15px;   
-   }
 
    .hebergements-marseille
    {  
@@ -752,10 +773,7 @@ margin-top: 10px;
        margin-top: 10px;
        margin-bottom: 10px;
    }
-   .hebergements-marseille-contenu i
-   {
-       font-size: 15px;
-   }
+  
    .afficher
    {   
        background: none;
@@ -960,8 +978,7 @@ margin-top: 10px;
      margin-top: -10px; 
    }
   .populaires-contenu i
-   {  
-     font-size: 15px;
+   {  font-size: 15px;
      margin-top: 60px;   
    }
    .hebergements-marseille
@@ -1080,11 +1097,11 @@ margin-top: 10px;
     body
     {
        margin: 5% 0.5%;
-       font-size: 1.1em;
+       font-size: 1.05em;
     }
     h3
     {
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .formulaire-filtre
     { 
@@ -1123,7 +1140,7 @@ margin-top: 10px;
    .populaires-item img
    {
     object-fit: cover;
-    min-width: 33%;
+    max-width: 33%;
     border: 1px solid  #F2F2F2;
     border-radius:  15px 0px 0px 15px;
     height: 130px;
@@ -1134,22 +1151,26 @@ margin-top: 10px;
    }
    #bleu-blanc
    {
-       min-width: 33%;
+       max-width: 33%;
    }
    .populaires-contenu
    {
-       padding: 0px 0px 0px 10px;
-       margin-top: -20px;
+       padding: 0px 10px 0px 10px;
+       margin-top: -10px;
+       width: 67%;
+       
    }
    .populaires-contenu p
-   {
+   {  
+    
       margin-top: -10px; 
    }
    .populaires-contenu i
-   {  
-        font-size: 13px;
+   {   
+        
         margin-bottom: -20px;
-        margin-top: 10px;
+        margin-top: 0px;
+        
    }
    .hebergements-marseille
   {  
